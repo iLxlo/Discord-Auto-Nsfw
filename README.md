@@ -12,6 +12,7 @@ This Discord bot automatically sends NSFW images using the NekoBot API. It provi
 ## NSFW Commands 🔞
 - `setdeletetimeout`: Set the timeout for automatic deletion of NSFW images.
 - `setinterval`: Adjust the interval between NSFW image messages.
+- `set channel`: Configure the channel for the NSFW.
 
 ## Getting Started 🚀
 1. Clone the repository. `git clone https://github.com/iLxlo/Discord-Auto-Nsfw`
