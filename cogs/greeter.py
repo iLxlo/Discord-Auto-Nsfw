@@ -13,14 +13,14 @@ database_path = os.path.join(data_folder, 'database.ini')
 
 
 class Greeter(commands.Cog):
-    def __init__(self, bot, database_config):
-        self.bot = bot
+    def __init__(self, client, database_path):
+        self.client = client
         self.join_data = {}
-        self.database_config = database_config
+        self.database_path = database_path
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print(f'Logged in as {self.bot.user.name} (ID: {self.bot.user.id})')
+        print(f'Logged in as {self.client.user.name} (ID: {self.client.user.id})')
 
     @commands.Cog.listener()
     async def on_member_join(self, member):
@@ -78,9 +78,9 @@ class Greeter(commands.Cog):
                 async for message in welcome_channel.history(limit=1):
                     await message.delete(delay=delay_seconds)
 
-                self.database_config[f'GUILD:{guild_id}']['DELETER'] = str(delay_seconds)
+                self.database_path[f'GUILD:{guild_id}']['DELETER'] = str(delay_seconds)
                 with open(database_path, 'w') as configfile:
-                    self.database_config.write(configfile)
+                    self.database_path.write(configfile)
 
                 update_message = await ctx.send(f"Greeter message will be deleted after {delay_seconds} seconds.")
                 await asyncio.sleep(5)
@@ -100,9 +100,9 @@ class Greeter(commands.Cog):
         await message.delete()
 
     def get_guild_settings(self, guild_id):
-        if f'GUILD:{guild_id}' in self.database_config:
-            channel_id = self.database_config[f'GUILD:{guild_id}'].get('channel', fallback=None)
-            threshold = self.database_config[f'GUILD:{guild_id}'].getint('threshold', fallback=1)
+        if f'GUILD:{guild_id}' in self.database_path:
+            channel_id = self.database_path[f'GUILD:{guild_id}'].get('channel', fallback=None)
+            threshold = self.database_path[f'GUILD:{guild_id}'].getint('threshold', fallback=1)
             channel_id = int(channel_id) if channel_id and channel_id.lower() != 'none' else None
 
             return channel_id, threshold
@@ -110,9 +110,10 @@ class Greeter(commands.Cog):
         return None, None
 
     def set_guild_settings(self, guild_id, channel_id, threshold):
-        self.database_config[f'GUILD:{guild_id}'] = {'channel': str(channel_id), 'threshold': str(threshold)}
-        with open(database_path, 'w') as configfile:
-            self.database_config.write(configfile)
+        self.database_path[f'GUILD:{guild_id}'] = {'channel': str(channel_id), 'threshold': str(threshold)}
+        with open(self.database_path, 'w') as configfile:
+            self.database_path.write(configfile)
 
-async def setup(bot):
-    await bot.add_cog(Greeter(bot, bot.database_config))
+
+async def setup(client):
+    await client.add_cog(Greeter(client, database_path))
