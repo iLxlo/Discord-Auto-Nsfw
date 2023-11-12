@@ -1,0 +1,176 @@
+2023-11-12 18:50:26,419 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 18:50:26,421 [INFO] logging in using static token
+2023-11-12 18:50:27,744 [INFO] Shard ID None has connected to Gateway (Session ID: 2fd629cea9252815368180b5016b164f).
+2023-11-12 18:50:30,061 [INFO] Bot is ready!
+2023-11-12 19:00:41,974 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:00:41,975 [INFO] logging in using static token
+2023-11-12 19:00:43,177 [INFO] Shard ID None has connected to Gateway (Session ID: 68e35230c6f76283980df5ec523333c0).
+2023-11-12 19:00:45,511 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 46, in on_ready
+    os.system("cls" if os.name == "nt" else "clear")  # Use cls for Windows, clear for other systems
+NameError: name 'os' is not defined
+2023-11-12 19:01:37,938 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:01:37,939 [INFO] logging in using static token
+2023-11-12 19:01:39,507 [INFO] Shard ID None has connected to Gateway (Session ID: 7b18f7451a33055a2dc5a35c4fca237d).
+2023-11-12 19:03:17,366 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:03:17,367 [INFO] logging in using static token
+2023-11-12 19:03:18,690 [INFO] Shard ID None has connected to Gateway (Session ID: 89fb352d9330313b311d4192193dc072).
+2023-11-12 19:04:39,697 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:04:39,698 [INFO] logging in using static token
+2023-11-12 19:04:41,204 [INFO] Shard ID None has connected to Gateway (Session ID: fba8b9388105764d9184e85849b7e12a).
+2023-11-12 19:09:44,107 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:09:44,108 [INFO] logging in using static token
+2023-11-12 19:09:45,538 [INFO] Shard ID None has connected to Gateway (Session ID: 47d38b21a9365a9a1ea7efb97b859428).
+2023-11-12 19:10:28,521 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:10:28,522 [INFO] logging in using static token
+2023-11-12 19:10:29,826 [INFO] Shard ID None has connected to Gateway (Session ID: 0cbac6a171b78790ce2fd969fdde3c13).
+2023-11-12 19:10:32,319 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 72, in on_ready
+    {c} {username}
+NameError: name 'c' is not defined
+2023-11-12 19:10:41,891 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:10:41,892 [INFO] logging in using static token
+2023-11-12 19:10:43,270 [INFO] Shard ID None has connected to Gateway (Session ID: 376681e5fe52d3a59a45435d2ff93bbc).
+2023-11-12 19:10:45,609 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 72, in on_ready
+    {r} {username}
+NameError: name 'username' is not defined
+2023-11-12 19:11:13,108 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:11:13,109 [INFO] logging in using static token
+2023-11-12 19:11:14,438 [INFO] Shard ID None has connected to Gateway (Session ID: cc157ddefd17d8407fd01e2e1002ca79).
+2023-11-12 19:11:41,778 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:11:41,780 [INFO] logging in using static token
+2023-11-12 19:11:43,476 [INFO] Shard ID None has connected to Gateway (Session ID: f030e8299fa94b92e50750b56ef5e8e4).
+2023-11-12 19:12:17,648 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:12:17,650 [INFO] logging in using static token
+2023-11-12 19:12:19,025 [INFO] Shard ID None has connected to Gateway (Session ID: 3aacf3ad8b5983acaa2921b7bb15240b).
+2023-11-12 19:12:21,373 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 47, in on_ready
+    a = fg("#babaf8")
+NameError: name 'fg' is not defined
+2023-11-12 19:12:38,828 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:12:38,829 [INFO] logging in using static token
+2023-11-12 19:12:40,117 [INFO] Shard ID None has connected to Gateway (Session ID: 67818fd26bdbebb3fb27c6c37a79628b).
+2023-11-12 19:20:58,305 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:20:58,307 [INFO] logging in using static token
+2023-11-12 19:20:59,622 [INFO] Shard ID None has connected to Gateway (Session ID: 25e6444716e899f6271c37bdf1e65f76).
+2023-11-12 19:22:12,700 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:22:12,702 [INFO] logging in using static token
+2023-11-12 19:22:14,180 [INFO] Shard ID None has connected to Gateway (Session ID: a462f3c035338fe9c336862d2ff3da85).
+2023-11-12 19:23:05,527 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:23:05,528 [INFO] logging in using static token
+2023-11-12 19:23:06,921 [INFO] Shard ID None has connected to Gateway (Session ID: e009b812c3378d5b26435ac828351103).
+2023-11-12 19:23:38,963 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:23:38,965 [INFO] logging in using static token
+2023-11-12 19:23:40,099 [INFO] Shard ID None has connected to Gateway (Session ID: cb070a00e6b0adcf83e643c01203736a).
+2023-11-12 19:26:02,713 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:26:02,715 [INFO] logging in using static token
+2023-11-12 19:26:04,050 [INFO] Shard ID None has connected to Gateway (Session ID: 4b057b6daea25104bfe43854e55101f2).
+2023-11-12 19:26:37,919 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:26:37,921 [INFO] logging in using static token
+2023-11-12 19:26:39,193 [INFO] Shard ID None has connected to Gateway (Session ID: 4400e338dab5753086c38588134f0741).
+2023-11-12 19:26:57,259 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:26:57,260 [INFO] logging in using static token
+2023-11-12 19:26:58,790 [INFO] Shard ID None has connected to Gateway (Session ID: 89323d65fe4edfc5577c1ef334b336fb).
+2023-11-12 19:27:31,019 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:27:31,020 [INFO] logging in using static token
+2023-11-12 19:27:32,258 [INFO] Shard ID None has connected to Gateway (Session ID: 7a28c14d0f105e6d9f6da4aef980ee43).
+2023-11-12 19:27:40,997 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:27:41,015 [INFO] logging in using static token
+2023-11-12 19:27:42,399 [INFO] Shard ID None has connected to Gateway (Session ID: c954f8dca37cf5af93726d5dcd95ee35).
+2023-11-12 19:29:34,056 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:29:34,058 [INFO] logging in using static token
+2023-11-12 19:29:35,481 [INFO] Shard ID None has connected to Gateway (Session ID: de87763a732edafe83e6e371effdaaee).
+2023-11-12 19:30:28,903 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:30:28,905 [INFO] logging in using static token
+2023-11-12 19:30:30,149 [INFO] Shard ID None has connected to Gateway (Session ID: 59d83d8c82c87bdf79a0a945c8986b22).
+2023-11-12 19:30:32,525 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 76, in on_ready
+    image_types = line.strip().split('=')[1].strip().split()
+IndexError: list index out of range
+2023-11-12 19:31:01,084 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:31:01,085 [INFO] logging in using static token
+2023-11-12 19:31:02,719 [INFO] Shard ID None has connected to Gateway (Session ID: e9c1fddfe18189a44bb7af9db443691e).
+2023-11-12 19:32:45,046 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:32:45,047 [INFO] logging in using static token
+2023-11-12 19:32:46,415 [INFO] Shard ID None has connected to Gateway (Session ID: 1f3a817e250f80b8c6c7327d737e70bc).
+2023-11-12 19:33:35,586 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:33:35,588 [INFO] logging in using static token
+2023-11-12 19:33:37,009 [INFO] Shard ID None has connected to Gateway (Session ID: 34a3463c98082c5de720777b252962fa).
+2023-11-12 19:34:04,911 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:34:04,936 [INFO] logging in using static token
+2023-11-12 19:34:06,121 [INFO] Shard ID None has connected to Gateway (Session ID: 5b150b40ac3637576a1f334018ff6fa0).
+2023-11-12 19:34:27,809 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:34:27,811 [INFO] logging in using static token
+2023-11-12 19:34:30,288 [INFO] Shard ID None has connected to Gateway (Session ID: f336cb204b94705a0e58b044b126345e).
+2023-11-12 19:34:32,654 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 78, in on_ready
+    print('Image Types:', + ', '.join(image_types_list), end=' ')
+TypeError: bad operand type for unary +: 'str'
+2023-11-12 19:34:44,421 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:34:44,422 [INFO] logging in using static token
+2023-11-12 19:34:45,835 [INFO] Shard ID None has connected to Gateway (Session ID: 2dbacbc2713936408374f19d170fed62).
+2023-11-12 19:34:57,629 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:34:57,630 [INFO] logging in using static token
+2023-11-12 19:34:59,039 [INFO] Shard ID None has connected to Gateway (Session ID: 9c1d5e7d802d5107b33481bb1da30010).
+2023-11-12 19:35:35,604 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:35:35,605 [INFO] logging in using static token
+2023-11-12 19:35:37,031 [INFO] Shard ID None has connected to Gateway (Session ID: 55dbaf6290689384c88ad12842eac0fe).
+2023-11-12 19:47:06,864 [INFO] Shard ID None has successfully RESUMED session 7b18f7451a33055a2dc5a35c4fca237d.
+2023-11-12 19:47:37,607 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:47:37,613 [INFO] logging in using static token
+2023-11-12 19:47:39,090 [INFO] Shard ID None has connected to Gateway (Session ID: 69119d87d433874d8d4a8fed0055b471).
+2023-11-12 19:48:31,112 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:48:31,115 [INFO] logging in using static token
+2023-11-12 19:48:32,947 [INFO] Shard ID None has connected to Gateway (Session ID: 41760ed4b2d329aa3d4a4982ea3554f6).
+2023-11-12 19:48:50,451 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:48:50,453 [INFO] logging in using static token
+2023-11-12 19:48:51,808 [INFO] Shard ID None has connected to Gateway (Session ID: 594cafec0462edd0c166d31b1d9da4ea).
+2023-11-12 19:49:45,437 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:49:45,438 [INFO] logging in using static token
+2023-11-12 19:49:46,917 [INFO] Shard ID None has connected to Gateway (Session ID: cc712c823bb365d8514c2609c0908590).
+2023-11-12 19:49:49,268 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 70, in on_ready
+    for line in config_lines:
+NameError: name 'config_lines' is not defined
+2023-11-12 19:50:04,682 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2023-11-12 19:50:04,683 [INFO] logging in using static token
+2023-11-12 19:50:06,053 [INFO] Shard ID None has connected to Gateway (Session ID: 5b96850d37e70c7be0a70674f64133a3).
+2023-11-12 19:50:08,409 [ERROR] Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Administrator\Desktop\AutoNSFW\neko.py", line 71, in on_ready
+    for line in config_lines:
+NameError: name 'config_lines' is not defined
+2023-11-12 20:59:32,734 [ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "setdeletetimeout" is not found
+2023-11-12 21:00:07,311 [ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "sendinterval" is not found
+2023-11-12 21:00:33,903 [ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "setdeletetimeout" is not found
+2023-11-12 21:00:38,016 [ERROR] Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "setdeletetimeout" is not found
+2023-11-12 22:15:48,906 [INFO] Shard ID None has successfully RESUMED session 7b18f7451a33055a2dc5a35c4fca237d.
+2023-11-12 23:08:04,831 [INFO] Shard ID None has successfully RESUMED session 7b18f7451a33055a2dc5a35c4fca237d.
