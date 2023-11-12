@@ -6,5 +6,5 @@ random
 configparser
 re
 colorama
-colored
+colored==1.4.3
 typing
