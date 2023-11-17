@@ -8,6 +8,7 @@ This Discord bot automatically sends NSFW images using the NekoBot API. It provi
 - `set channel`: Configure the channel for the greeter.
 - `set delete`: Toggle automatic deletion of greeter messages.
 - `setchannel`: Set the NSFW channel for the bot.
+- `send embed`: Triggers to embed builed to build verification embed.
 
 ## NSFW Commands 🔞
 - `setdeletetimeout`: Set the timeout for automatic deletion of NSFW images.
