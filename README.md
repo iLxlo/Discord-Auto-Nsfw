@@ -32,7 +32,7 @@ This project is licensed under the Apache License.
 
 # Yapılacaklar
 
-* [x] Embed builder. **(2023-11-20)**
+* [x] Embed builder
 * [ ] Help menu for cogs & subcommands**
 * [ ] auto pfp from pinterest/server members
 
