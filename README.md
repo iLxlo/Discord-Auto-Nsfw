@@ -27,3 +27,12 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 ## License 📄
 This project is licensed under the Apache License.
+
+## TO DO LIST
+
+# Yapılacaklar
+
+* [x] Embed builder. **(2023-11-20)**
+* [ ] Help menu for cogs & subcommands**
+* [ ] auto pfp from pinterest/server members
+
