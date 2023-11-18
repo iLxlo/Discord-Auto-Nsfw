@@ -25,7 +25,7 @@ client = commands.Bot(config["Discord"]["prefix"], intents=intents)
 
 @client.event
 async def on_ready():
-    cogs_to_load = ["cogs.set", "cogs.del", "cogs.greeter"]
+    cogs_to_load = ["cogs.set", "cogs.del", "cogs.greeter", "cogs.embed", "cogs.unban"]
 
     os.system("cls" if os.name == "nt" else "clear")  # Use cls for Windows, clear for other systems
 
