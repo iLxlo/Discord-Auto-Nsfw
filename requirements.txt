@@ -2,7 +2,6 @@ discord
 discord.py
 requests
 asyncio
-random
 configparser
 re
 colorama
