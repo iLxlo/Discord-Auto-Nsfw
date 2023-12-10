@@ -30,8 +30,6 @@ This project is licensed under the Apache License.
 
 ## TO DO LIST
 
-# Yapılacaklar
-
 * [x] Embed builder
 * [ ] Help menu for cogs & subcommands**
 * [ ] auto pfp from pinterest/server members
